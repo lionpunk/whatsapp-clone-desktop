@@ -1,5 +1,7 @@
 # WhatsApp Desktop
 
+![screenshot](http://i1-win.softpedia-static.com/screenshots/WhatsApp-Desktop_1.png "Main Window")
+
 Unofficial WhatsApp Desktop Client for OSX, Linux and Windows. Build with [Electron](http://electron.atom.io/).  
 
 This is **NOT** an official product. This project does not attempt to reverse engineer the WhatsApp API or attempt to reimplement any part of the WhatsApp client. Any communication between the user and WhatsApp servers is handled by official WhatsApp Web itself; this is just a native wrapper for WhatsApp Web, like a browser.
@@ -10,7 +12,7 @@ Original versions of WhatsApp Desktop was written by:
 
 ## Features
 
-* Cross platform (OSX, Windows x64, Linux x64 and ARM v7l)
+* Cross platform (OSX, Windows x64, Linux ia32/x64 and ARM v7l)
 * Native notifications
 * System tray icon
 * Open links in browser
@@ -41,29 +43,25 @@ You need NPM and Yarn to be installed on your system before building deb package
 * NPM  : https://nodejs.org/en/download/package-manager/
 * Yarn : https://yarnpkg.com/lang/en/docs/install/
 
-### Build Debian deb packages
+### Build Debian deb 32/64bits packages
 
 You can build `whatsapp-desktop.deb` package with:
 
 ```sh
 git clone https://github.com/oOthkOo/whatsapp-desktop.git
 cd whatsapp-desktop
-./build-deb.sh
+./build-deb-x64.sh # or ./build-deb-ia32.sh for 32 bits
 ```
 
 ### Install Whatsapp on Debian, Ubuntu, Mint, ...
 
-``sh
-sudo dpkg -i ./build/whatsapp-desktop.deb
+```sh
+sudo dpkg -i ./build/whatsapp-desktop-x64.deb
 ```
 
 ## Repositories
 
 Note that these repos are available only for `amd64` (deb+rpm) and `armhf/armv7l` (deb-only).
-
-## Screenshots
-
-![screenshot](http://i1-win.softpedia-static.com/screenshots/WhatsApp-Desktop_1.png "Main Window")
 
 ## Command line switches
 
