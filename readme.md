@@ -6,9 +6,7 @@ Unofficial WhatsApp Desktop Client for OSX, Linux and Windows. Build with [Elect
 
 This is **NOT** an official product. This project does not attempt to reverse engineer the WhatsApp API or attempt to reimplement any part of the WhatsApp client. Any communication between the user and WhatsApp servers is handled by official WhatsApp Web itself; this is just a native wrapper for WhatsApp Web, like a browser.
 
-Original versions of WhatsApp Desktop was written by:
-* @bcalik : https://github.com/bcalik/Whatsapp-Desktop
-* @Enrico204 : https://github.com/Enrico204/Whatsapp-Desktop
+
 
 ## Features
 
