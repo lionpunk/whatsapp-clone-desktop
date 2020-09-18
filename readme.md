@@ -1,4 +1,4 @@
-# WhatsApp Desktop
+# WhatsApp Desktop clone
 
 ![screenshot](http://i1-win.softpedia-static.com/screenshots/WhatsApp-Desktop_1.png "Main Window")
 
